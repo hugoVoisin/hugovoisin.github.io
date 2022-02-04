@@ -64,7 +64,7 @@ body,ul,p,h1,h2,h3,h4,h5,em,li,a, hr, footer {
   font-weight: bold;
 }
 
-.nav_item p:hover {
+.nav_item a:hover {
   font-style: italic;
   color: var(--color-hover);
   cursor: pointer;
