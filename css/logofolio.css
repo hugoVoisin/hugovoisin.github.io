@@ -54,7 +54,7 @@ transition: ease 0.2s;
 }
 
 #ufogradient{
-  --color-stop: #black;
+  --color-stop: black;
 }
 .logofolio_logo:hover #ufogradient{
   --color-stop: #e2131b;
@@ -129,4 +129,21 @@ transition: ease 0.2s;
 }
 .logofolio_logo:hover #era{
   visibility: visible;
+}
+
+.logofolio_logo:hover #fabulous_orange{
+  fill: #ef7a17;
+}
+.logofolio_logo:hover #fabulous_bleu{
+  fill: #2989a0;
+}
+.logofolio_logo:hover #fabulous_gris{
+  fill: #706f6f;
+}
+
+.logofolio_logo:hover #dinamo_g{
+  fill: #1d1d1b ;
+}
+.logofolio_logo:hover #dinamo_v{
+  fill: #ced500;
 }
