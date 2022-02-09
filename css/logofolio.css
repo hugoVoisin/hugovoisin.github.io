@@ -17,6 +17,12 @@
 .container_logo{
   height: 40%;
   margin: auto;
+  transition: ease 0.2s;
+}
+
+.logofolio_logo:hover .container_logo{
+height: 50%;
+transition: ease 0.2s;
 }
 
 /* first row */
