@@ -1,0 +1,160 @@
+.grid_article{
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(5, 12vw);
+  gap: var(--column_gap);
+}
+
+.article_intro{
+  grid-column: 8 / 11;
+  grid-row: 2 / 3;
+  margin-top: 6.5vw;
+}
+
+.article_text{
+  text-transform: uppercase;
+  font-size: 0.8vw;
+}
+
+.article_text_1{
+  grid-column: 4 / 6;
+  grid-row: 6 / 6;
+}
+
+.article_text_2{
+  grid-column: 6 / 8;
+  grid-row: 6 / 6;
+}
+
+
+.article_img_9{
+  grid-column:3/9;
+  grid-row: 4/6;
+  left: 0;
+}
+
+
+
+.hero_img { 
+  grid-column: 1 / 11;
+  grid-row: 1/5;
+
+  box-sizing: border-box;
+  background-size: 15vw;
+  background-position: right;
+  transition: width 0.8s ease; /*
+  background-color: var(--placeholder);
+  background-color: lightgray;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-image: url(/img/gallerie\ print.jpg);*/
+}
+
+.img_1{
+  position: absolute;
+  width: 21.4Vw;
+  height: 14.3vw;
+  left: 11.5vw;
+  top: 5.9vw;
+  rotate: -10deg;
+
+  background-image: url(/img/print_1.png);
+  background-size: cover  ;
+}
+
+.img_2{
+  position: absolute;
+  width: 25.6Vw;
+  height: 19.2vw;
+  left: 32.2vw;
+  top: 5vw;
+  rotate: 11deg;
+
+  background-image: url(/img/print_2.png);
+  background-size: 120%;
+  background-position: center;
+}
+
+.img_3{
+  position: absolute;
+  width: 28.4Vw;
+  height: 18.2vw;
+  left: 7.6vw;
+  top: 19vw;
+  rotate: -9deg;
+  background-image: url(/img/print_3.png);
+  background-size: 100%;
+  background-position: center;
+}
+
+.img_4{
+  position: absolute;
+  width: 25.6Vw;
+  height: 19.2vw;
+  left: 43.2vw;
+  top: 16.3vw;
+  rotate: 1deg;
+  background-image: url(/img/print_6.png);
+  background-size: 100%;
+  background-position: center;
+}
+
+.img_5{
+  position: absolute;
+  width: 25.6Vw;
+  height: 19.2vw;
+  left: 39.7vw;
+  top: 27.7vw;
+  rotate: -5deg;
+  background-image: url(/img/print_4.png);
+  background-size: 100%;
+  background-position: center;
+}
+
+.img_6{
+  position: absolute;
+  width: 25.6Vw;
+  height: 19.2vw;
+  left: 24.7vw;
+  top: 22.7vw;
+  rotate: -8deg;
+  background-image: url(/img/print_5.png);
+  background-size: 100%;
+  background-position: center;
+}
+
+.img_7{
+  position: absolute;
+  width: 25.6Vw;
+  height: 19.2vw;
+  left: 31.7vw;
+  top: 36.7vw;
+  rotate: 0deg;
+  background-image: url(/img/print_7.png);
+  background-size: 100%;
+  background-position: center;
+}
+
+.img_8{
+  position: absolute;
+  width: 25.6Vw;
+  height: 19.2vw;
+  left: 5.5vw;
+  top: 34.7vw;
+  rotate: 8deg;
+  background-image: url(/img/print_8.png);
+  background-size: 100%;
+  background-position: center;
+}
+
+.article_title_element{
+  grid-column: 8 / 11;
+}
+
+/*
+background-color: #ff000073;*/
+
+.img_gallery:hover  {
+  filter: blur(3px);
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}

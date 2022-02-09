@@ -189,7 +189,7 @@ border: 1px solid var(--text-color);
 }
 
 .el_3 .menu_img {
-  background-image: url(./img/maya_cover.png);
+  background-image: url(./img/printfolio_cover.jpg);
 }
 
 .el_4 .menu_img {
@@ -210,8 +210,8 @@ border: 1px solid var(--text-color);
 }
 
 .el_6 .menu_img {
-  background-image: url(./img/capessor_cover.png);
-  background-position: 90%;
+  background-image: url(./img/dinamo_cover.png);
+  background-position: 85%;
 }
 
 .el_7 .menu_img {
