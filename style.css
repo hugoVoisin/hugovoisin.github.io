@@ -561,6 +561,7 @@ border: 1px solid var(--text-color);
   background-size: 15vw;
   background-position: right;
   flex: none;
+  background-image: url(./img/me.png);
 }
 
 .info_element {
@@ -578,7 +579,7 @@ border: 1px solid var(--text-color);
   margin-right: 0.5vw;
 }
 
-.grid_info{
+.grid_4x10{
   display: grid;
   grid-template-columns: repeat(10, 1fr);
   gap: 12px;
