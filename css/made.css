@@ -1,0 +1,118 @@
+.grid_article{
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(29, 12vw);
+  gap: var(--column_gap);
+}
+
+.article_intro{
+  grid-column: 8 / 11;
+  grid-row: 2 / 3;
+  margin-top: 4vw;
+}
+
+.article_text{
+  text-transform: uppercase;
+  font-size: 0.8vw;
+}
+
+.article_text_1{
+  grid-column: 4 / 6;
+  grid-row: 4;
+}
+
+.article_text_2{
+  grid-column: 6 / 8;
+  grid-row: 4;
+}
+
+.hero_img { 
+  grid-column: 1 / 8;
+  grid-row: 1/4;
+  background-color: var(--placeholder);
+  box-sizing: border-box;
+  background-size: 15vw;
+  background-position: right;
+  transition: width 0.8s ease;
+  background-image: url(/img/made_cover.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.article_img_1{
+  grid-column: 1 / 11;
+  grid-row: 5 / 8;
+  background-color: lightgray;
+  background-image: url(/img/Made/made.jpg);
+  background-size: 35%;
+  background-repeat: no-repeat;
+  background-position: 76.9%;
+}
+
+.article_img_2{
+  grid-column: 1 / 11;
+  grid-row: 8 / 11;
+  background-image: url(/img/Made/made2.jpg);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.article_img_3{
+  grid-column: 1 / 11;
+  grid-row: 11 / 14;
+  background-image: url(/img/Made/made3.jpg);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.article_img_4{
+  grid-column: 1 / 11;
+  grid-row: 14 / 17;
+  background-image: url(/img/Made/made4.jpg);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.article_img_5{
+  grid-column: 1 / 11;
+  grid-row: 17 / 20;
+  background-image: url(/img/Made/made5.jpg);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.article_img_6{
+  grid-column: 1 / 11;
+  grid-row: 20 / 23;
+  background-image: url(/img/Made/made6.jpg);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.article_img_7{
+  grid-column: 1 / 11;
+  grid-row: 23 / 26;
+  background-image: url(/img/Made/made7.jpg);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.article_img_8{
+  grid-column: 1 / 11;
+  grid-row: 26 / 29;
+  background-image: url(/img/Made/made8.jpg);
+  background-size: 35%;
+  background-repeat: no-repeat;
+  background-position: 23.1% ;
+}
+
+.article_info p{
+  line-height: 1.2;
+}
