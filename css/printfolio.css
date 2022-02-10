@@ -56,8 +56,7 @@
   height: 14.3vw;
   left: 11.5vw;
   top: 5.9vw;
-  rotate: -10deg;
-
+  transform: rotate(-10deg);
   background-image: url(/img/print_1.png);
   background-size: cover  ;
 }
@@ -68,8 +67,7 @@
   height: 19.2vw;
   left: 32.2vw;
   top: 5vw;
-  rotate: 11deg;
-
+  transition: rotate(11deg);
   background-image: url(/img/print_2.png);
   background-size: 120%;
   background-position: center;
@@ -81,7 +79,7 @@
   height: 18.2vw;
   left: 7.6vw;
   top: 19vw;
-  rotate: -9deg;
+  tranform: rotate(-9deg);
   background-image: url(/img/print_3.png);
   background-size: 100%;
   background-position: center;
@@ -93,7 +91,7 @@
   height: 19.2vw;
   left: 43.2vw;
   top: 16.3vw;
-  rotate: 1deg;
+  transform: rotate(1deg);
   background-image: url(/img/print_6.png);
   background-size: 100%;
   background-position: center;
@@ -105,7 +103,7 @@
   height: 19.2vw;
   left: 39.7vw;
   top: 27.7vw;
-  rotate: -5deg;
+  transform: rotate(-5deg);
   background-image: url(/img/print_4.png);
   background-size: 100%;
   background-position: center;
@@ -117,7 +115,7 @@
   height: 19.2vw;
   left: 24.7vw;
   top: 22.7vw;
-  rotate: -8deg;
+  transform: rotate(-8deg);
   background-image: url(/img/print_5.png);
   background-size: 100%;
   background-position: center;
@@ -129,7 +127,7 @@
   height: 19.2vw;
   left: 31.7vw;
   top: 36.7vw;
-  rotate: 0deg;
+  transform: rotate(0deg);
   background-image: url(/img/print_7.png);
   background-size: 100%;
   background-position: center;
@@ -141,7 +139,7 @@
   height: 19.2vw;
   left: 5.5vw;
   top: 34.7vw;
-  rotate: 8deg;
+  transform: rotate(8deg);
   background-image: url(/img/print_8.png);
   background-size: 100%;
   background-position: center;
