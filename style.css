@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
+@media screen and (max-width: 1200px) {
+  .container_full {
+    filter: blur(15px);
+  }
+
+  .notice{
+    display: flex !important;
+  }
+}
+
 @keyframes slideInFromLeft {
   0% {
     transform: translateX(-200%);
@@ -18,6 +28,21 @@
   --placeholder: #C4C4C4;
   --global-theme-toggle-content: '🌞 DAY';
   --column_gap: 1.667vw;
+;
+}
+
+.notice{
+  margin-left: 1vw;
+  display: none;
+}
+
+.notice img{
+  position: absolute;
+  margin-left: 1vw;
+  margin-top: 6vw;
+}
+.cover{
+  position: absolute;
 }
 
 html[data-theme='dark'] {
