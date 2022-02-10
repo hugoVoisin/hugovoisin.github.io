@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
   .container_full {
     filter: blur(15px);
   }
