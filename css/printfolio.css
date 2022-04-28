@@ -153,6 +153,20 @@
 background-color: #ff000073;*/
 
 .img_gallery:hover  {
+
+}
+
+.text_gallery p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  height: 100%;
+  filter: blur(0px);
+}
+
+.nancy:hover{
   filter: blur(3px);
   transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }

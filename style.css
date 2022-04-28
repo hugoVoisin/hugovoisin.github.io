@@ -93,6 +93,8 @@ p{
 
 .nav_item {
   font-weight: bold;
+  align-items: center;
+  display: flex;
 }
 
 .nav_item a:hover {
@@ -347,11 +349,12 @@ border: 1px solid var(--text-color);
 
 .nav_clock_item {
   display: flex;
+  align-items: center;
 }
 
 #nav_clock_world{
   width: 19.5px;
-  padding: 1px 0 0 1px;
+  padding: 1px 3px 0 1px;
 }
 
 #nav_clock_world:hover{
