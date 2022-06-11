@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>test langue</title>
+  </head>
+  <body>
+    <h1><span class="en ">Hello world !</span><span class="fr active">Bonjour monde !</span></h1>
+    <p><span class="en ">It's an english written text</span><span class="fr active">C'est un texte écrit en français</span></p>
+
+    <p class="languageFR bouton">FR</p>
+    <p class="languageEN bouton"> EN</p>
+
+    <style>
+      .en {
+        display: none;
+      }
+
+      .fr {
+        display: none;
+      }
+
+      .active {
+        display: block;
+      }
+
+      .bouton {
+        width: 32px;
+        cursor: pointer;
+        background-color: grey;
+        padding: 2px;
+        border-radius: 4px;
+      }
+    </style>
+
+
+    <script>
+      const en = document.querySelectorAll(".en")
+      console.log(en)
+
+      const fr = document.querySelectorAll(".fr")
+      console.log(fr)
+
+      const buttonFR = document.querySelector(".languageFR")
+      const buttonEN = document.querySelector(".languageEN")
+
+      buttonFR.addEventListener("click", () => {
+        Array.from( en ).forEach(function(en){
+        en.classList.remove("active")})
+        Array.from( fr ).forEach(function(fr){
+        fr.classList.add("active")})});
+
+      buttonEN.addEventListener("click", () => {
+      Array.from( en ).forEach(function(en){
+      en.classList.add("active")})
+      Array.from( fr ).forEach(function(fr){
+      fr.classList.remove("active")})});
+    </script>
+  </body>
+</html>

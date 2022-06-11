@@ -3,62 +3,60 @@
   <head>
     <meta charset="utf-8">
     <title>Hugo Voisin</title>
-    <link rel="stylesheet" href="./style_V2.css">
+    <link rel="stylesheet" href="./style.css">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
 
-    <!-- <script src="./js/sparkles.js"></script>-->
+    <script src="./js/sparkles.js"></script>
   </head>
   <body>
+    
+
+    <div class="cover">
+      <div class="notice">
+        <p style="text-transform: uppercase;">This website is in beta phase, for the best experience try it on desktop screen</p>
+        <img src="https://media.giphy.com/media/3o7abDnUPDkOC05QU8/giphy.gif" alt="">
+      </div>  
+    </div>
 
     <div class="container_full">
-      <!-- <span id="theme-toggle" class="theme-toggle"></span>-->
+      <span id="theme-toggle" class="theme-toggle"></span>
       <!-- Nav Bar -->
       <div class="nav_grid_container_full">
-        <div class="nav_first_item">
-          <div class="nav_clock_item">
-            <div class="nav_clock_item" id="nav_clock_world">
-                <a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="width: 16; height: 16;"><path fill="none"/><path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm-2.29-2.333A17.9 17.9 0 0 1 8.027 13H4.062a8.008 8.008 0 0 0 5.648 6.667zM10.03 13c.151 2.439.848 4.73 1.97 6.752A15.905 15.905 0 0 0 13.97 13h-3.94zm9.908 0h-3.965a17.9 17.9 0 0 1-1.683 6.667A8.008 8.008 0 0 0 19.938 13zM4.062 11h3.965A17.9 17.9 0 0 1 9.71 4.333 8.008 8.008 0 0 0 4.062 11zm5.969 0h3.938A15.905 15.905 0 0 0 12 4.248 15.905 15.905 0 0 0 10.03 11zm4.259-6.667A17.9 17.9 0 0 1 15.973 11h3.965a8.008 8.008 0 0 0-5.648-6.667z" fill="#fff000)"/></svg>
-                </a>
-            </div>
-            <div id="nav_clock_date" class="nav_clock" onload="showDate()"></div>
-            <div id="nav_clock_time" onload="showTime()"></div> 
-         </div>
-         <div class="hamburger">
-           <span class="bar"></span>
-           <span class="bar"></span>
-           <span class="bar"></span>
-         </div>
+        <div class="nav_clock_item">
+          <div class="nav_clock_item" id="nav_clock_world"><a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="width: 16; height: 16;"><path fill="none"/><path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm-2.29-2.333A17.9 17.9 0 0 1 8.027 13H4.062a8.008 8.008 0 0 0 5.648 6.667zM10.03 13c.151 2.439.848 4.73 1.97 6.752A15.905 15.905 0 0 0 13.97 13h-3.94zm9.908 0h-3.965a17.9 17.9 0 0 1-1.683 6.667A8.008 8.008 0 0 0 19.938 13zM4.062 11h3.965A17.9 17.9 0 0 1 9.71 4.333 8.008 8.008 0 0 0 4.062 11zm5.969 0h3.938A15.905 15.905 0 0 0 12 4.248 15.905 15.905 0 0 0 10.03 11zm4.259-6.667A17.9 17.9 0 0 1 15.973 11h3.965a8.008 8.008 0 0 0-5.648-6.667z" fill="#fff000)"/></svg></a></div>
+          <div id="nav_clock_date" class="nav_clock" onload="showDate()"></div>
+          <div id="nav_clock_time" onload="showTime()"></div>
         </div>
-
         <div class="nav_item"><a href="index.html">Work</a></div>
         <div class="nav_item"><a href="info.html">Info</a></div>
         <div class="nav_item"><a href="contact.html">Contact</a></div>
 
         <div class="nav_last_item">
+            <div class="language_selection">
             <p class="language_item_fr selected_nav">FR</p>
             <p class="language_item_l">|</p>
             <p class="language_item_en not_selected_nav">EN</p>
+          </div>
+
         </div>
       </div>
       <hr class="separator">
 
       <!-- Menu -->
       <div class="menu_container">
-            <a href="./jaguar.html" class="menu_element el_1">
+        
+          <div class="row_menu">
+              <a href="./jaguar.html" class="menu_element el_1">
                 <div class="menu_img"></div>
                 <h1 class="menu_title_item">Jaguar</h1>
-
                 <div class="menu_info menu_flex_item">
                 <p>Branding,</p>
                 <p>2020</p>
                 </div>
-            </a>
-
-            <div class="spacer_2"></div>
-            <div class="spacer_2"></div>
+              </a>
 
              <a href="./era.html" class="menu_element el_2">
                 <div class="menu_img">
@@ -69,12 +67,9 @@
                 <p>2019</p>
                 </div>
             </a>
+          </div>
 
-            <div class="spacer"></div>
-            <div class="spacer"></div>
-            <div class="spacer"></div>
-            <div class="spacer"></div>
-
+          <div class="row_menu">
             <a href="./printfolio.html" class="menu_element el_3">
               <div class="menu_img">
               </div>
@@ -85,9 +80,6 @@
               </div>
             </a>
 
-            <div class="spacer"></div>
-            <div class="spacer"></div>
-
             <a href="./vox_atypi.html" class="menu_element el_4">
               <div class="menu_img">
               </div>
@@ -97,9 +89,9 @@
               <p>2019</p>
               </div>
             </a>
+          </div>
 
-            <div class="spacer"></div>
-
+          <div class="row_menu">
             <a href="./made.html" class="menu_element el_5">
               <div class="menu_img">
               </div>
@@ -110,9 +102,6 @@
               </div>
             </a>
 
-            <div class="spacer"></div>
-            <div class="spacer"></div>
-
             <a href="./dinamo.html" class="menu_element el_6">
               <div class="menu_img">
               </div>
@@ -122,7 +111,9 @@
               <p>2022</p>
               </div>
             </a>
+          </div>
 
+          <div class="row_menu">
             <a href="./quechua.html" class="menu_element el_7">
               <div class="menu_img">
               </div>
@@ -132,13 +123,10 @@
               <p>2020</p>
               </div>
             </a>
-            
-            <div class="spacer"></div>
-            <div class="spacer"></div>
-            <div class="spacer"></div>
 
           <a href="./logofolio.html" class="menu_element el_8">
-            <div class="menu_img"></div>
+            <div class="menu_img">
+            </div>
             <h1 class="menu_title_item">Logo—<br>Folio</h1>
             <div class="menu_info menu_flex_item">
             <p>Logodesign,</p>
@@ -147,7 +135,7 @@
         </a>
 
       </div>
-      </div>
+
     <!-- footer -->
     <footer>
       <div class="footer_separator">
